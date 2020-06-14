@@ -4,11 +4,11 @@ A repo of container which download videos from youtube.
 
 ## ENV
 
-Docker Engine: 19.03.8
-Compose: 1.12.5
-CentOS: 7.7.1908
-Python 3.7
-其他的看 Dockerfile
+Docker Engine: 19.03.8  
+Compose: 1.12.5  
+CentOS: 7.7.1908  
+Python 3.7  
+其他的看 Dockerfile  
 
 ## 目錄
 
