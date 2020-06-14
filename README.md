@@ -15,7 +15,7 @@ Python 3.7
 ```yaml
 - type: bind
   source: ./youtubedl
-  target: /youtubedl
+  target: /proj/youtubedl
 
 下載的影片都放這裡
 ```
