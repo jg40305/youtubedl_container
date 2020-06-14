@@ -20,7 +20,14 @@ Python 3.7
 下載的影片都放這裡
 ```
 
-## 指令
+## 啟動指令
+
+```shell
+$ docker-compose build --force-rm
+$ docker-compose up -d
+```
+
+## 下載指令
 
 ```shell
 $ youtube-dl -F https://{{ youtube_url }} # 查看 format code
