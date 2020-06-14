@@ -1,0 +1,14 @@
+version: "3.7"
+services:
+  youtubedl:
+    image: youtubedl_centos
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    container_name: youtubedl
+    command: /sbin/init
+    privileged: true
+    volumes:
+      - type: bind
+        source: ./youtubedl
+        target: /proj/youtubedl
